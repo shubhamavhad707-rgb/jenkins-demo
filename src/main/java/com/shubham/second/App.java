@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello Jenkins Auti build Pipeline!" );
+        System.out.println( "Hello Jenkins Auto build Pipeline!" );
     }
 }

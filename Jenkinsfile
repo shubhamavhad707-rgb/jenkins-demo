@@ -10,6 +10,9 @@ pipeline {
             steps {
                 sh 'mvn clean install'
             }
+        }
+    }
+
     post {
         success {
             echo 'Build Successful'
@@ -20,9 +23,6 @@ pipeline {
         }
         always {
             echo 'Pipeline Finished'
-        }
-    }
-       
         }
     }
 }
